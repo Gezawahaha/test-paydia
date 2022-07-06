@@ -10,7 +10,7 @@ const NumberOne  = () => {
         for (var i = 1; i <= n; i++) {
         // printing spaces
         for (var j = 0; j < n - i; j++) {
-            string += " ";
+            string += "&nbsp;";
         }
         // printing star
         for (var k = 0; k < i; k++) {
